@@ -1,0 +1,139 @@
+*{margin: 0; padding: 0; border: none; outline: none; box-sizing: border-box}
+/*Body*/
+body{background: white}
+/*Header*/
+/*Logo image*/
+.logo{float: left; width: 27.14%; height: auto; margin: 1.30% 0 0 1.95%}
+/*Navigation menu*/
+/*Navigation menu container*/
+.nav_menu{float: right; margin: 3% 0 0 0; width: 47%; height: auto}
+/*Menu items*/
+.nav_menu .horizontal_menu_items{list-style: none; float: right; margin: 0 4%}
+/*The left margin of the first menu item*/
+.horizontal_menu_items:first-child{margin-right: 2%}
+/*The right margin of the last menu item*/
+.horizontal_menu_items:last-child{margin-right: 4%}
+/*Link in the menu item*/
+.nav_menu a{text-decoration: none; word-wrap: break-word; font-size: 1.3vw; float: right}
+.nav_menu a:hover{text-decoration: underline}
+/*'Rotator' container*/
+.rotator_container{float: left; background-color: #9fc63f; width: 100%; height: auto; padding: 10.5% 0}
+/*Previus*/
+.previus{float: left; width: 3%; height: auto; /*background: url("Pictures/Slice-for-rotator_03.png") no-repeat -7.5px -2px; background-size: 165% auto;*/ border-radius: 50%; margin: 9% 0 0 1%}
+/*Previus image*/
+.previus_image{float: left; width: 100%; height: auto}
+/*Next*/
+.next{float: right; width: 3%; height: auto; /*background: url("Pictures/Slice-for-rotator_05.png") no-repeat -7.5px -2px; background-size: 165% auto;*/ border-radius: 50%; margin: 9% 1% 0 0}
+/*Next image*/
+.next_image{float: left; width: 100%; height: auto}
+/*Triple image*/
+.triple_image{float: left; display: inline-block; width: 35%; height: auto; /*border: 1px solid red;*/ margin: 0 0 0 19%; /*background: url("Pictures/Triple-image_04.png") no-repeat; background-size: 100% auto*/}
+/*Text to the right of the triple image*/
+.text{float: left; display: inline-block; width: 22%; height: auto; /*border: 1px solid red;*/ margin: 3% 0 0 -2%; /*background: url("Pictures/Text-to-the-right-of-the-image_04.png") no-repeat; background-size: 100% auto*/}
+/*Pictures in 'triple_image' and 'text' elements*/
+.t_i_image, .text_image{width: 100%; height: auto}
+/*Space between 'rotator' container and title text*/
+.space_after_green_float_container{clear: both}
+/*Heading element*/
+.heading{clear: both; font: 2vw "Myriad Pro"; text-align: center; margin: 5% 0 0 0; text-decoration: underline}
+/*Change the color of a word in the element with the name of the class 'heading'!*/
+.elegantica_green{color: #90b742}
+/*Circular image below the title*/
+/*Container for 'amazing'*/
+.cont_amazing_image_with_text,
+.cont_24_hour_image_with_text,
+.cont_web_image_with_text,
+.cont_mobile_image_with_text{width: 12%; height: auto; margin: 7% 0 0 23%; float: left}
+/*Distance left margin of the other elements*/
+/*Margin '24 Hour', 'web', 'mobile' element*/
+.cont_24_hour_image_with_text, .cont_web_image_with_text, .cont_mobile_image_with_text{margin-left: 2%}
+/*Area around image*/
+.padding_image{border: 3px solid #f3f3f3; padding: 10%; border-radius: 50%; width: 100%; height: auto; float: left}
+/*Container for image*/
+.cont_for_image{background-color: #8eb63e; border-radius: 50%; width: 100%; height: auto; padding: 15%; float: left}
+/*Image..., 'amazing', '24 hour', 'web', 'mobile'!*/
+.amazing_image, .hour__image, .web_image, .mobile_image{border-radius: 50%; width: 100%; height: auto; float: left}
+/*Two lines of text below the image*/
+.text_armata{font: 1.5vw "Myriad Pro"; text-align: center; margin: 6% 0 0 0}
+.text_karla{font: 1vw "Myriad Pro"; text-align: center}
+/*Space after circular image*/
+.s_a_c_i{clear: both; border: none; margin: 0 0 5% 0}
+/*Title of portfolio*/
+.portfolio_title{font: 1.9vw "Myriad Pro"; margin: 0 0 0 26.5%; background: url("Pictures/Dashed-image.png") repeat-x 0 40%; width: 48.5%; height: auto}
+/*The green section titles*/
+.portfolio_green{color: #b3cf7d}
+/*Portfolio images with text*/
+/*Portfolio image container for top left position*/
+.first_portfolio_container{width: 34%; height: auto; float: left; margin: 3% 0 0 18%}
+/*Image business cards*/
+.business_cards{width: 40%; height: auto; float: left}
+/*Title image*/
+.title_business_cards{font: 1.4vw "Myriad Pro"; float: left; margin: 1% 0 0 6%; width: 50%}
+.below_t_b_c{border: 1px solid blue}
+.first_below_t_b_c{background-color: #8eb63e; color: white; margin: 0 2% 0 6%; padding: 0 4% 0 4%; float: left; font: 1.2vw "Myriad Pro"}
+.second_below_t_b_c{background-color: #8eb63e; color: white; padding: 0 4% 0 4%; float: left; font: 1.2vw "Myriad Pro"}
+.main_text_b_c{font: 1.1vw "Myriad Pro"; width: 50%; height: auto; float: left; margin: 0 0 0 6%}
+/*Portfolio image container for top right position*/
+.second_portfolio_container{width: 34%; height: auto; float: left; margin: 3% 0 0 0}
+/*-||- left bottom*/
+.third_portfolio_container{width: 34%; height: auto; float: left; margin: 3% 0 0 18%}
+/*-||- right bottom*/
+.fourth_portfolio_container{width: 34%; height: auto; float: left; margin: 3% 0 5% 0}
+/*Pictures sponsors..., content after 'portfolio'*/
+/*The title of this part*/
+.title_p_s{font: 1.8vw "Myriad Pro"; margin: 0 0 3% 26.5%; clear: both; background: url("Pictures/Dashed-image.png") repeat-x 0 40%; width: 48.5%}
+.green_title_p_s{color: #8eb63e}
+/*Sponsors image*/
+.sponsors_image{float: left; width: 10%; height: auto}
+.sponsors_image:hover{}
+/*Moving the first images due to alignment*/
+.s_i_1{margin: 0 0 0 20%}
+/*Gray background. Here is noticed that the background is gray*/
+.gray_bg{background: linear-gradient(to top, hsl(0, 0%, 96%), hsla(0, 0%, 100%, 1)); padding: 0 0 20% 0; border-bottom: 1px solid #f7f6f6}
+/*End of gray container*/
+/*Upp arrow link. ...,in a line syntax!!!*/
+/*Upp arrow container*/
+.upp_arrow{float: left; border-radius: 50%; /*background: #8eb63e url("Pictures/Upp-arrow.png") no-repeat 50% 50%; padding: 1.3%; margin: 7% 20% 0 0;*/ width: 100%; height: auto}
+/*Upp arrow images*/
+.upp_arrow_image{float: left; width: 100%; height: auto}
+/*Content after sponsores pictures*/
+/*First container*/
+.a_s_p_f_container{float: left; width: 18%; height: auto; margin: 3% 0 0 13.5%}
+.a_s_p_c_f_c_title{font: 1.5vw "Myriad Pro"}
+.a_s_p_c_f_c_text{font: 1.2vw "Myriad Pro"; margin: 3% 0 0 0}
+/*Second container*/
+.a_s_p_s_container{float: left; width: 15%; height: auto; margin: 3% 0 0 1%}
+.a_s_p_c_s_c_title{font: 1.5vw "Myriad Pro"}
+.a_s_p_c_s_c_item_1{font: 1.2vw "Myriad Pro"; margin: 10% 0 0 0; background: url("Pictures/Dotted-image.png") repeat-x 1% 78%; padding-bottom: 8%}
+.a_s_p_c_s_c_item_2{font: 1.2vw "Myriad Pro"; margin: 10% 0 0 0; background: url("Pictures/Dotted-image.png") repeat-x 1% 78%; padding-bottom: 8%}
+.a_s_p_c_s_c_item_3{font: 1.2vw "Myriad Pro"; margin: 10% 0 0 0; background: url("Pictures/Dotted-image.png") repeat-x 1% 78%; padding-bottom: 8%}
+.a_s_p_c_s_c_item_4{font: 1.2vw "Myriad Pro"; margin: 5% 0 0 0}
+/*Third container*/
+.a_s_p_t_c{float: left; width: 20%; height: auto; margin: 3% 0 0 1%}
+.a_s_p_t_c_title{font: 1.5vw "Myriad Pro"}
+.a_s_p_t_c_item_1, .a_s_p_t_c_item_2, .a_s_p_t_c_item_3{font: 1.2vw "Myriad Pro"; margin: 3% 0 0 0}
+/*Pictures on the left side these items*/
+.phone_on_the_left_side{display: inline-block; width: 17%; height: 10%; vertical-align: middle; margin: 3% 0 0 0}
+.telephone_headset{display: inline-block; width: 12%; height: 10%; vertical-align: middle; margin: 3% 0 0 4%}
+.envelope{display: inline-block; width: 12%; height: 10%; vertical-align: middle; margin: 3% 0 0 4%}
+/*Fourth container*/
+.fourth_container{float: left; width: 18%; height: auto; margin: 3% 0 0 1%}
+.fourth_container_title{font: 1.5vw "Myriad Pro"}
+.fourth_container_item_1{font: 1.2vw "Myriad Pro"; padding: 2% 0; background: #fafafa; margin: 10% 0 12% 0; border-bottom: 1px solid #f1f1f1}
+.fourth_container_item_2{font: 1.2vw "Myriad Pro"; padding: 2% 0; background: #fafafa; border-bottom: 1px solid #f1f1f1; margin: 0 0 11% 0}
+.fourth_container_item_3{font: 1.4vw "Myriad Pro"; padding: 4% 0; background: #8eb63e; text-align: center; width: 45%; margin: 0 0 0 55%; color: white}
+/*Fifth container*/
+.fifth_container{float: left; width: 100%}
+.fifth_container_title{font: 1.4vw "Myriad Pro"; margin: 10% 0 5% 0}
+.fifth_container_social_image{width: 16%; height: auto; float: left}
+.f_c_s_i_2{margin-top: 6%}
+.f_c_s_i_3{margin-top: 4%}
+.f_c_s_i_4{margin-top: 5%}
+.f_c_s_i_5{margin-top: 5%}
+.f_c_s_i_6{margin-top: 2%}
+/*Footer*/
+.footer{background: #202020; width: 100%; height: auto; float: left; padding: 1% 0}
+.footer_div{color: white; font: 1vw "Myriad Pro"; float: left}
+.f_d_1{margin: 0 0 0 13%}
+.f_d_5{margin: 0 12.5% 0 0; float: right}
+
